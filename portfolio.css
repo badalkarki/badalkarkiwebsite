@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-body {
+  background-image: linear-gradient(90deg, #b2ab96, beige);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+  z-index: 1;
+}
+
+.outside-box1 {
+  height: 90vh;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.inside-box1 {
+  height: 72%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e1ddd3;
+  border-radius: 15px;
+  z-index: 5;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+
+.my-img {
+  height: 140px;
+  width: 140px;
+  margin-top: 20px;
+  border-radius: 50%;
+  background-image: url(./img1.jpg);
+  background-size: cover;
+  transition: transform 1s ease-in-out;
+}
+.my-img:hover {
+  transform: rotate(360deg);
+}
+
+.skills {
+  margin-left: -45%;
+}
+
+/* p {
+} */
+
+.inside-box2 {
+  height: 40%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  background-color: #e1ddd3;
+  border-radius: 15px;
+  z-index: 5;
+  padding-bottom: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  margin-top: 10%;
+}
+
+.boxes {
+  height: 15%;
+  width: 70%;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.skill1 {
+  background-color: #c36356;
+  width: 70%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.skill2 {
+  background-color: #c36356;
+  width: 50%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.skill3 {
+  background-color: #c36356;
+  width: 60%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.skill4 {
+  background-color: #c36356;
+  width: 95%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.outside-box2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+  width: 25%;
+}
+
+.inside-box3 {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin-bottom: 5px;
+}
+
+.box5 {
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background-color: #d1cdc1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease;
+}
+
+.box5:hover {
+  transform: translateY(-20px);
+}
+
+h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-left: 5px;
+}
+
+.box6 {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease;
+}
+
+.box6:hover {
+  transform: translateY(-20px);
+}
+
+.learning {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  font-size: large;
+}
+
+.inside-box4 {
+  height: 35%;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.project {
+  margin-top: 10px;
+}
+
+.box7 {
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease;
+  background-image: url(./nikeclone.png);
+  background-size: cover;
+}
+
+.box7:hover {
+  transform: translateX(-20px);
+}
+
+.box8 {
+  height: 100%;
+  width: 50%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  transition: transform 0.3s ease;
+  background-image: url(./nwtclone.jpg);
+  background-size: cover;
+}
+
+.box8:hover {
+  transform: translateX(20px);
+}
+
+.inside-box5 {
+  height: 40%;
+  width: 100%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+  background-color: #d1cdc1;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+  margin-top: 30px;
+}
+
+p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h4 {
+  font-size: larger;
+}
+
+a {
+  text-decoration: none;
+  color: #551a8b;
+}
+
+.contact-me {
+  border-radius: 15px;
+  height: 400px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 1);
+}
+
+.your-info {
+  margin-top: 20px;
+  height: 2rem;
+  width: 80%;
+  background-color: #efece5;
+}
+
+.mssg {
+  height: 6rem;
+  width: 80%;
+  margin-top: 20px;
+  background-color: #efece5;
+}
+
+.button {
+  width: 60%;
+  height: 2rem;
+  margin-top: 15px;
+  background-color: #c4544c;
+}
